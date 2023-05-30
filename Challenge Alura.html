@@ -5,33 +5,37 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/Challenge Alura.css">
   <title>Encriptador de Texto</title>
 </head>
 
+<header>
+  <img src="/imagenes/alura-logo.png" alt="Logo de Alura" class="logo">
+</header>
+
 <body>
-    <main>
-        <section class="form box">
-        <form id="formulario">
-        <label for="input-texto">&#128512 Sólo letras minúsculas, sin tildes</label>
+    <main class="main">
+    <section class="form box">
+      <form id="formulario">
+        <label for="input-texto">Sólo letras minúsculas, sin tildes</label>
         <textarea class="text-input" name="input-texto" id="input-texto" placeholder="Ingrese el texto aquí" rows="5" cols="50"></textarea>
         <div class="button-container">
           <input class="btn" type="submit" value="Encriptar" id="btn-encriptar">
           <input class="btn" type="submit" value="Desencriptar" id="btn-desencriptar">
         </div>
-        </form>
-        </section>
-  
-    <section class="mensaje box">
-      <label for="mensaje-texto">&#128558 Mensaje encriptado:</h2></label>
-      <textarea class="text-input" name="mensaje-texto" id="mensaje-texto"rows="5" cols="50"></textarea>              
-      <input class="btn" type="submit" value="Copiar Texto" id="btn-copiar">
+      </form>
     </section>
-    </main>
+  
+    <section class="msg box">
+      <label for="mensaje-texto">Mensaje encriptado:</h2></label>
+      <textarea class="text-input" name="mensaje-texto" id="mensaje-texto"rows="5" cols="50"></textarea>              
+      <input class="btn" type="submit" value="Copiar texto" id="btn-copiar">
+    </section>
+  </main>
 
-  <footer><img src="/imagenes/alura-logo.png">★ Hecho por Natalia ★</footer>
+  <footer>★ Hecho por Natalia - &copy; 2023 ★</footer>
 
   <script src="/Challenge Alura.js"></script>
 </body>
