@@ -12,6 +12,12 @@ html {
   box-sizing: inherit;
 }
 
+.logo{
+  padding-top: 10px;
+  margin-left: 10px;
+  width: 10%;
+}
+
 body {
   background: whitesmoke; 
   font-family: 'Bona Nova', serif;
@@ -119,7 +125,7 @@ footer {
   display: flex;
   justify-content: center;
   margin-top: 30px;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bold;
   color: darkorchid;
 }
