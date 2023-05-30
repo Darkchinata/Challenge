@@ -1,0 +1,125 @@
+html {
+  font-size: 65%;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: whitesmoke; 
+  font-family: 'Bona Nova', serif;
+}
+
+main {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.box {
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+  background-color: lightgray;
+  border-radius: 20px;
+  height: auto;
+}
+
+label {
+  color: white;
+  background-color: darkorchid;
+  display: block;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-container:last-child {
+  margin-right: 0;
+}
+
+#btn-encriptar{
+  background: darkmagenta;
+  border: 1px solid darkmagenta;
+  border-radius: 25px;
+  color: lightpink;
+  cursor: pointer;
+  height: 40px;
+  width: 150px;
+}
+
+#btn-desencriptar{
+  background: lightpink;
+  border: 1px solid darkmagenta;
+  border-radius: 25px;
+  color: darkmagenta;
+  cursor: pointer;
+  margin-left: 30px;
+  height: 40px;
+  width: 150px;
+}
+
+#btn-copiar{
+  background: darkorchid;
+  border: 1px solid whitesmoke;
+  border-radius: 25px;
+  color: whitesmoke;
+  cursor: pointer;
+  height: 40px;
+  width: 150px;
+}
+
+.btn:hover {
+    box-shadow: 0 4px 16px grey;
+    transition: all 0.2s ease;
+}
+
+.text-input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+  display: block;
+  border-radius: 5px;
+  border: 1px solid grey;
+  width: 100%;
+  font-family: 'Bona Nova', serif;
+  font-size: 18px;
+}
+
+.error {
+  background-color: red;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 15px;
+  margin: 10px auto 0;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  color: darkorchid;
+}
